@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Josefin+Sans:wght@100;200;400;500;700&family=M+PLUS+1+Code:wght@200;300;400;500;600&family=M+PLUS+1:wght@200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,100;1,700&display=swap');
+
+
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: left
+  }
+  body {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #c8c3e6;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    text-align: left;
+  }
+  
+.tabla-container {
+    position: relative;
+}
+
+.tabla-comparativa {
+    position: relative;
+    z-index: 2; 
+}
+
+.marca-agua {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
